@@ -1,0 +1,75 @@
+body {
+    font-size: 0;
+}
+.orange {
+    background-color: orange;
+    height: 40px;
+    margin: 2px;
+}
+.green {
+    background-color: greenyellow;
+    height: 100px;
+    margin: 2px;
+}
+.blue {
+    background-color: blue;
+    margin: 2px;
+    height: 130px;
+}
+.grey {
+    background-color: lightgray;
+    height: 70px;
+    margin: 2px auto;
+}
+@media screen and (min-width: 320px) {
+    .green {
+        height: 150px;
+    }
+    .blue {
+        height: 100px;
+    }
+    .orange {
+        height: 60px;
+    }
+    .ketvirtas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .grey {
+        width: 49%;
+        justify-content: space-between;
+        height: 50px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .pirmas {
+        display: flex;
+        flex-direction: row;
+    }
+    .orange {
+        width: 50%;
+        height: 100px;
+    }
+    .green {
+        height: 220px;
+    }
+    .trecias {
+        display: flex;
+        flex-direction: row;
+    }
+    .blue {
+        width: 33%;
+        height: 180px;
+    }
+    .ketvirtas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .grey {
+        width: 25%;
+        height: 150px;
+        margin: 2px;
+    }
+}
